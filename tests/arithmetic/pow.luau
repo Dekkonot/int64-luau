@@ -1,4 +1,4 @@
-local int64 = require("../../init")
+local int64 = require("../../")
 
 local test_1 = int64.pow(int64.from_pair(0, 3), 4)
 assert(int64.to_hex_string(test_1) == "0000000000000051", "pow test 1 (3 ^ 4) failed")

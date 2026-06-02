@@ -1,4 +1,4 @@
-local int64 = require("../../init")
+local int64 = require("../../")
 
 local lshift_n = int64.from_pair(0x00000000, 0x00000001)
 for i = 0, 63 do

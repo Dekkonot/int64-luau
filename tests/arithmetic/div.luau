@@ -1,4 +1,4 @@
-local int64 = require("../../init")
+local int64 = require("../../")
 
 -- For numbers that are 53 bits or less, we can cheat and use floating point
 -- division. These tests are just to make sure that works, even though it's

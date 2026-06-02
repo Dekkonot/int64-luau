@@ -1,4 +1,4 @@
-local int64 = require("../../init")
+local int64 = require("../../")
 
 local lrotate_n = int64.from_pair(0x80000000, 0x00000000)
 assert(int64.lrotate(lrotate_n, 0) == lrotate_n, `{int64.to_hex_string(lrotate_n)} LROT 0 was wrong`)

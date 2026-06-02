@@ -1,4 +1,4 @@
-local int64 = require("../init")
+local int64 = require("../")
 
 local PADDING_STRING = "\a\b\f\n\r\t\v\255\69\127"
 

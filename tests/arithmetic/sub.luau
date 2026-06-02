@@ -1,4 +1,4 @@
-local int64 = require("../../init")
+local int64 = require("../../")
 
 local max = int64.from_pair(0xFFFFFFFF, 0xFFFFFFFF)
 local zero = int64.from_u32(0)

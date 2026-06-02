@@ -1,4 +1,4 @@
-local int64 = require("../../init")
+local int64 = require("../../")
 
 local test_1_a = int64.mult(int64.from_pair(0, 3), int64.from_pair(0, 5))
 assert(int64.to_hex_string(test_1_a) == "000000000000000f", "test 1 a (3 * 5) failed")

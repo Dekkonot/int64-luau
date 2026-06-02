@@ -1,4 +1,4 @@
-local int64 = require("../../init")
+local int64 = require("../../")
 
 local band_1 = int64.band(int64.from_pair(0, 0), int64.from_pair(0, 0))
 assert(int64.to_hex_string(band_1) == "0000000000000000", "band_1 was wrong")
