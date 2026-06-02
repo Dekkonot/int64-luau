@@ -1,5 +1,7 @@
 name: Tests
 on:
+    schedule:
+        - cron: "30 10 * * 1"
     push:
         paths: "**.luau"
         branches: "main"
